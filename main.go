@@ -19,6 +19,7 @@ func main() {
 		"1.0.0",
 		server.WithLogging(),
 		server.WithRecovery(),
+
 	)
 
 	// Tool 1: create_workbook
