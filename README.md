@@ -47,6 +47,19 @@ Run the compiled binary to start the MCP server in stdio mode:
 ./excel-tools-server
 ```
 
+### How set up with cline
+```bash
+"mcpServers": {
+  "excel_go": {
+      "disabled": false,
+      "timeout": 60,
+      "command": "excel_mcp_go_server.exe",
+      "args": [],
+      "transportType": "stdio"
+  }
+}
+```
+
 ### MCP Tools Available
 
 #### 1. Create Workbook
